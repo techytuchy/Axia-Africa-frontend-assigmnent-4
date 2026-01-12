@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px auto;
+  max-width: 1200px;
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+}
+.section-one {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: start;
+}
+.section-two {
+  font-family: "Fraunces";
+  font-size: 48px;
+  font-weight: bold;
+  text-align: start;
+  color: hsl(212, 21%, 14%);
+}
+.section-three {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: start;
+  color: hsl(228, 12%, 48%);
+}
+.section-four {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: ;
+}
+.price {
+  font-family: "Fraunces";
+  font-size: 48px;
+  font-weight: bold;
+  color: hsl(158, 36%, 37%);
+}
+.cancelled-price {
+  font-family: "Montserrat";
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
