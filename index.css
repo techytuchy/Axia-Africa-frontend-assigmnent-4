@@ -5,43 +5,43 @@
 }
 body {
   background-color: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
+  /* line-height: 1.5; */
+  font-weight: 700;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
-.flex {
+.container {
   display: flex;
   justify-content: center;
-  gap: 20px;
   max-width: 1200px;
-}
-.section {
-  padding: 50px auto;
+  margin: 0 auto;
 }
 .grid {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+  justify-content: space-around;
+  gap: 2rem;
   padding: 50px;
   background-color: hsl(0, 0%, 100%);
 }
-.section-one {
+.profile-card__title {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 5rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  text-align: start;
   color: hsl(228, 12%, 48%);
+  letter-spacing: 1.2rem;
 }
-.section-two {
+.profile-card__heading {
   font-family: "Fraunces";
-  font-size: 48px;
+  font-size: 6rem;
   font-weight: bold;
-  text-align: start;
   color: hsl(212, 21%, 14%);
 }
-.section-three {
+.profile-card__description {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: start;
   color: hsl(228, 12%, 48%);
 }
@@ -51,7 +51,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.price {
+/* .price {
   font-family: "Fraunces";
   font-size: 48px;
   font-weight: bold;
@@ -61,12 +61,33 @@ body {
   font-family: "Montserrat";
   text-decoration: line-through;
   color: hsl(228, 12%, 48%);
+} */
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-size: 4.6rem;
+  font-family: "Fraunces", sans-serif;
+}
+.cancelled-price {
+  font-size: 2rem;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
 }
 .btn {
   background-color: hsl(158, 36%, 37%);
-  border-radius: 10px;
-  padding: 10px 20px;
+  padding: 2.4rem 4.8rem;
+  border-radius: 1.4rem;
   border-style: none;
-  font-weight: 700px;
+  font-weight: bold;
+  font-size: 2rem;
   font-family: "Montserrat";
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn:hover {
+  background-color: hsl(158, 42%, 18%);
 }
